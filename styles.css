@@ -85,9 +85,11 @@ nav > ul.ul {
   gap: 2em;
   padding: 1em;
   transition: 0.3s;
+  visibility: hidden;
   align-items: center;
 }
 nav > ul.ul.active {
+  visibility: inherit;
   right: -1px;
 }
 a {
